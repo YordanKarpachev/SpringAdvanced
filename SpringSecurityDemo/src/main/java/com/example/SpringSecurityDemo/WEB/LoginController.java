@@ -13,4 +13,10 @@ public class LoginController {
         return "index";
     }
 
+    @GetMapping("/users/login")
+
+    public String login() {
+        return "auth-login";
+    }
+
 }
