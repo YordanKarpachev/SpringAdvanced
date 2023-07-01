@@ -1,4 +1,4 @@
-package com.example.SpringSecurityDemo.services;
+package com.example.SpringSecurityDemo;
 
 import com.example.SpringSecurityDemo.model.entity.UserEntity;
 import com.example.SpringSecurityDemo.model.entity.UserRoleEntity;
@@ -20,9 +20,9 @@ public class InitService {
   private final PasswordEncoder passwordEncoder;
 
   public InitService(UserRoleRepository userRoleRepository,
-                     UserRepository userRepository,
-                     PasswordEncoder passwordEncoder,
-                     @Value("${app.default.password}") String defaultPassword) {
+      UserRepository userRepository,
+      PasswordEncoder passwordEncoder,
+      @Value("${app.default.password}") String defaultPassword) {
     this.userRoleRepository = userRoleRepository;
     this.userRepository = userRepository;
     this.passwordEncoder = passwordEncoder;
