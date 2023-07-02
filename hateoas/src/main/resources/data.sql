@@ -1,5 +1,5 @@
-INSERT INTO students (id, age, deleted, name) VALUES (1, "21", 0, "Pesho");
-INSERT INTO students (id, age, deleted, name) VALUES (2, "22", 0, "Gosho");
+INSERT INTO students (id, age, deleted, name) VALUES (1, "21", 0, "Peter");
+INSERT INTO students (id, age, deleted, name) VALUES (2, "22", 0, "Tom");
 INSERT INTO students (id, age, deleted, name) VALUES (3, "23", 1, "Anna");
 
 INSERT INTO courses (id, name, price) VALUES (1, "Spring", 100);
