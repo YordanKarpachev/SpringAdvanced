@@ -8,11 +8,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @Controller
-public class CategoryController {
+public class UserManualController {
 
-    @GetMapping("/categories/{id}")
+    @GetMapping("/manuals/{id}")
     public String getCategoryById(@PathVariable("id") Long id) {
-        throw new ObjectNotFoundException(id, "Category manual");
+        throw new ObjectNotFoundException(id, "User manual");
     }
+
 
 }
